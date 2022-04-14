@@ -11,7 +11,76 @@ html, body{
 }
 
 .Order-Taking-Screen {
-    width: 1280px;
+    max-width: 100%;
     height: 800px;
     background-color: #f8f8f8;
+}
+
+.Rectangle-614 {
+  min-width: 1280px;
+  height: 56px;
+  padding: 0 0 0 32px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+img.Component-35-1 {
+  width: 104px;
+  height: 24px;
+  margin: 16px 929px 16px 0;
+  object-fit: contain;
+  margin-right: auto;
+}
+.Rectangle-624 {
+  width: 56px;
+  height: 56px;
+  padding: 16px;
+  background-color: #54ad70;
+  
+
+}
+img.outline-notifications-24px {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.Rectangle-623 {
+  width: 159px;
+  height: 56px;
+  padding: 14px 27px 10px 16px;
+  position: relative;
+  background-color: #5bbc79;
+}
+
+.Adam-Lane {
+  width: 74px;
+  height: 19px;
+  margin: 7px 10px 6px 0;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+img.cesar-rincon-608059-unsplash {
+  width: 32px;
+  height: 32px;
+  margin: 0 0 0 10px;
+  position: absolute;
+  object-fit: contain;
+}
+
+
+@media all and (max-width: 768px){
+  .Rectangle-624{
+    flex-direction: row;
+  }
 }
